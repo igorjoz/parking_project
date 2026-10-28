@@ -1,0 +1,55 @@
+# Personal configuration and generated scripts (including backup copies).
+config*.json
+!config.example.json
+*.local.*
+*.local
+*.local.*.*
+console-ready*.js*
+.env
+.env.*
+!.env.example
+!.env.*.example
+
+# Results, screenshots and browser sessions may contain personal data.
+/artifacts/
+/img/
+/.browser/
+/playwright-report/
+/test-results/
+**/playwright/.auth/
+storage-state*.json
+storageState*.json
+cookies*.json
+*.har
+
+# Credentials and local tool settings.
+.aws/
+.ssh/
+.codex/
+.npmrc
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Dependencies, caches and logs.
+node_modules/
+.npm-cache/
+.cache/
+coverage/
+*.log
+
+# Editor settings, temporary files and backups.
+.idea/
+.vscode/
+*.bak
+*.backup
+*.old
+*.orig
+*.tmp
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+Desktop.ini

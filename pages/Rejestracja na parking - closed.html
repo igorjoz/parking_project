@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<!-- saved from url=(0047)https://e.sspg.pl/parking/formularz-rejestracji -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        
+        <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+        <title>    Rejestracja na parking
+</title>
+        <link href="./Rejestracja na parking - closed_files/bootstrap.min.css" rel="stylesheet" type="text/css">
+        <link href="./Rejestracja na parking - closed_files/form.css" rel="stylesheet" type="text/css">
+         <link href="./Rejestracja na parking - closed_files/AdminLTE.css" rel="stylesheet" type="text/css">
+        <link href="./Rejestracja na parking - closed_files/dataTables.bootstrap.css" rel="stylesheet" type="text/css">
+        <link href="./Rejestracja na parking - closed_files/fortis.css" rel="stylesheet" type="text/css">
+        <link href="./Rejestracja na parking - closed_files/esspg.css" rel="stylesheet" type="text/css">
+                
+    <style>[_nghost-ng-c1767231887]{font-family:Open Sans,sans-serif;color:#121212}</style></head>
+    <body class="skin-blue">
+ <header class="header">
+            <a href="https://sspg.pl/" class="logo" style="margin-top:0px !important;">
+                <!-- Add the class icon to your logo image or logo icon to add the margining -->
+                <img src="./Rejestracja na parking - closed_files/SSPG_new_negatyw.png" class="icon logo-sspg" style="margin: 0px !important" alt="SSPG">
+            </a>
+            <!-- Header Navbar: style can be found in header.less -->
+            <nav class="navbar navbar-static-top" role="navigation">
+                
+             
+            </nav>
+        </header>
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 col-sm-12">
+        
+<div class="box-body">
+    <h1>
+    Edycja Parkingi 2026 - IMIO
+    </h1>
+    <h1>
+    Zapisy na miejsca postojowe rozpoczną się 24.10.2026 16:00:00
+    </h1>
+</div>
+
+
+    </div>
+
+    <script src="./Rejestracja na parking - closed_files/jquery-1.12.2.min.js.pobrane" type="text/javascript"></script>
+    <script src="./Rejestracja na parking - closed_files/jquery.validate.js.pobrane" type="text/javascript"></script>
+    
+    <script type="text/javascript">
+        $(document).ready(function() {
+            jQuery.validator.addMethod(
+                "regex",
+                function(value, element, regexp) {
+                    if (regexp.constructor != RegExp)
+                        regexp = new RegExp(regexp);
+                    else if (regexp.global)
+                        regexp.lastIndex = 0;
+                        return this.optional(element) || regexp.test(value);
+                },""
+            );
+            $("#esspg_news_parking_application_form").validate({
+                onchange: true,
+                onblur: true,
+                errorClass: "error",
+                validClass: "valid",
+                rules: {
+                    "esspg_news_parking_application_form[firstname]": {
+                        required: true,
+                    },
+                    "esspg_news_parking_application_form[lastName]": {
+                        required: true,
+                    },
+                    "esspg_news_parking_application_form[email]": {
+                        required: true,
+                        email: true,
+                        regex: /.*@student.pg.edu.pl$/
+                    },
+                    "esspg_news_parking_application_form[albumNumber]": {
+                        required: true,
+                        minlength: 6,
+                        maxlength: 6,
+                        digits: true
+                    },
+                    "esspg_news_parking_application_form[plateNumber]": {
+                        required: true
+                    },
+                    "esspg_news_parking_application_form[carModel]": {
+                        required: true
+                    },
+                    "esspg_news_parking_application_form[carBrand]": {
+                        required: true
+                    },
+                    "rodo": {
+                        required: true
+                    }
+                },
+                messages: {
+                    "esspg_news_parking_application_form[firstname]": {
+                        required: "wymagane",
+                    },
+                    "esspg_news_parking_application_form[lastName]": {
+                        required: "wymagane",
+                    },
+                    "esspg_news_parking_application_form[email]": {
+                        required: "wymagane",
+                        email: "wpisany format jest niepoprawny",
+                        regex: "adres email musi być w domenie @student.pg.edu.pl"
+                    },
+                    "esspg_news_parking_application_form[albumNumber]": {
+                        required: "wymagane",
+                        minlength: "wymagany jest format 6 cyfrowy",
+                        maxlength: "wymagany jest format 6 cyfrowy",
+                        digits: "poprawny numer indeksu składa się wyłącznie z cyfr"
+                    },
+                    "esspg_news_parking_application_form[plateNumberumber]": {
+                        required: "wymagane"
+                    },
+                    "esspg_news_parking_application_form[carModel]": {
+                        required: "wymagane"
+                    },
+                    "esspg_news_parking_application_form[carBrand]": {
+                        required: "wymagane"
+                    },
+                    "rodo": {
+                        required: "wymagane"
+                    }
+                },
+                onfocusout: function(element, event) {
+                    this.element(element);
+                }
+            });
+
+        });
+    </script>
+
+    <script type="module" src="./Rejestracja na parking - closed_files/vce701823e78c4301a35b7e07294d87301792088814092" integrity="sha512-UKNk8GbxkABxKcXYuLkO16EleLGUkcvJWtpSNmExE0Too3ZaFAxTscNWEc1OdAv5/BikHawapSCaiD2XCmp+Bw==" data-cf-beacon="{&quot;version&quot;:&quot;2024.11.0&quot;,&quot;token&quot;:&quot;b411e5657c0d4aecb422ed5e6aa7a7ca&quot;,&quot;r&quot;:1,&quot;spa&quot;:2}" crossorigin="anonymous"></script>
+
+</body><app-ls-content ng-version="22.1.1"><template shadowrootmode="open"><!----><app-similar-tools _nghost-ng-c1767231887=""><!----><!----><!----></app-similar-tools><!----><!----><style>[_nghost-ng-c1767231887]{font-family:Open Sans,sans-serif;color:#121212}</style></template></app-ls-content></html>

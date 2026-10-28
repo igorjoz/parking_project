@@ -1,0 +1,16 @@
+{
+  "startAt": "2026-10-24T17:00:00+02:00",
+  "expectedEdition": "ETI",
+  "consent": true,
+  "data": {
+    "firstname": "",
+    "lastName": "",
+    "email": "",
+    "albumNumber": "",
+    "phoneNumber": "",
+    "faculty": "ETI",
+    "plateNumber": "",
+    "carBrand": "",
+    "carModel": ""
+  }
+}

@@ -1,0 +1,75 @@
+body {
+  background-color: #0e3e66; }
+
+.mainimg {
+  width: 100%;
+  min-height: 1080px;
+  position: absolute;
+  display: block;
+  z-index: -1; }
+  .mainimg img {
+    width: 100%; }
+
+.separator.bottom {
+  padding-bottom: 10px;
+  width: 100%;
+  overflow: hidden; }
+
+p {
+  line-height: 1.5;
+  text-align: justify; }
+
+.imglogo {
+  text-align: center;
+  float: left;
+  margin-right: 35px;
+  margin-top: -10px; }
+  .imglogo img {
+    width: 150px; }
+
+.grey-container-top {
+  padding-left: 35px;
+  padding-right: 35px;
+  padding-top: 35px;
+  padding-bottom: 20px;
+  color: #fff;
+  overflow: hidden;
+  font-size: 30px;
+  margin-top: 40px;
+  font-weight: bold;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  background: #c32035; }
+
+.grey-container {
+  background: #ffffff;
+  padding: 20px 35px; }
+  .grey-container h3 {
+    color: #c32035;
+    font-size: 19px; }
+  .grey-container .submitbutton {
+    background: #c32035;
+    border-color: #c32035;
+    font-size: 16px;
+    padding: 8px 20px;
+    border-radius: 3px;
+    float: right;
+    text-transform: uppercase; }
+  .grey-container .grey-box {
+    background: #f4f6f5;
+    margin-bottom: 20px;
+    padding: 20px 30px; }
+    .grey-container .grey-box label {
+      color: #3f3f3f; }
+
+.error {
+  color: #bf2026;
+  padding: 5px 10px; }
+
+input.error {
+  box-shadow: 0px 0px 2px rgba(191, 32, 38, 0.75); }
+input.valid {
+  box-shadow: 0px 0px 2px rgba(76, 201, 6, 0.75);
+  color: #42751E; }
+
+/*# sourceMappingURL=form.css.map */

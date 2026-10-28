@@ -1,0 +1,14 @@
+{
+  "name": "parking-registration-helper",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node src/run.mjs",
+    "offline": "node src/run.mjs --offline",
+    "offline:config": "node src/run.mjs --offline-config",
+    "check": "node src/run.mjs --check-config",
+    "console": "node src/generate-console.mjs",
+    "test": "node --test"
+  },
+  "dependencies": { "playwright": "^1.56.1" }
+}
